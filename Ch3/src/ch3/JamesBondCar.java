@@ -5,7 +5,7 @@ public class JamesBondCar extends Car {
 	boolean isGunOnBoard = true;
 	final String MANUFACTURER = "J.B. Limited";
 
-	void submerge
+	void submerge()
 
 	{
 		currentSubmergeDepth = 50;
@@ -13,7 +13,7 @@ public class JamesBondCar extends Car {
 
 	}
 
-	void surface
+	void surface()
 
 	{
 		// some code goes here

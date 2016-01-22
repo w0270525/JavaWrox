@@ -7,12 +7,12 @@ public class Car {
 	String color;
 	int numberOfDoors;
 	
-	void startEngine {
+	void startEngine() {
 		//some code goes here
 		
 	}
 	
-	void stopEngine {
+	void stopEngine() {
 		int tempCounter=0;
 		
 		//some code goes here
