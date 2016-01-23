@@ -5,18 +5,6 @@ public class Tax {
 	String state;
 	int dependents;
 	
-	Tax(){
-		this.grossIncome=0;
-		this.state="NY";
-		this.dependents=0;
-	}
-	
-	Tax(double gi, String st, int dep){
-		this.grossIncome=gi;
-		this.state=st;
-		this.dependents=dep;
-	}
-	
 	public double calcTax()
 	{
 		double stateTax=0;
