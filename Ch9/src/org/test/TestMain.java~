@@ -1,0 +1,14 @@
+package org.test;
+
+public class TestMain
+{
+	public static final void main(String[] args)
+	{
+		String input = null;
+		System.out.println("Hello World");
+		System.console().readLine(input);
+		System.out.println("You typed " + input);
+
+
+	}
+}
